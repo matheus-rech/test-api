@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+		"docker.commands.build": "${containerCommand} build --pull --rm -f \"${dockerfile}\" -t ${tag} \"${context}\"",
+		"cSpell.words": [
+			"assertthat",
+			"httr",
+			"jsonlite",
+			"metafor"
+		]
+    }
+}
